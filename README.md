@@ -6,7 +6,7 @@
 
 **A controlled, training-free audit of whether benchmark-visible answers depend on arbitrary option identifiers.**
 
-[![Paper](https://img.shields.io/badge/MedReason_2026-Workshop-9B4A3C?style=flat-square)](#citation)
+[![MICCAI 2026 Workshop](https://img.shields.io/badge/MICCAI%202026-MedReason%20Workshop-9B4A3C?style=flat-square)](https://medreason26.github.io/)
 [![Python](https://img.shields.io/badge/Python-3.12-3D6F68?style=flat-square&logo=python&logoColor=white)](pyproject.toml)
 [![Licence](https://img.shields.io/badge/Code-MIT-6D7C85?style=flat-square)](LICENSE)
 [![Release integrity](https://img.shields.io/badge/release-integrity_checked-4E748F?style=flat-square)](.github/workflows/release-integrity.yml)
@@ -168,7 +168,7 @@ Publication metadata will be added when the camera-ready record becomes availabl
 ```text
 Chengyi Zhang, Yitong Bai, and Ziyang Wang.
 The Label Is Not the Answer: Output-Schema Anchoring in Medical Multimodal MCQ Evaluation.
-MedReason 2026 Workshop.
+MedReason 2026 Workshop at MICCAI 2026.
 ```
 
 ## Licence and third-party material
