@@ -1,0 +1,4 @@
+condition,n,correct,accuracy_percent,ci95_low_percent,ci95_high_percent,A,B,C,D,E
+Submitted,600,121,20.166667,17.150497,23.562418,597,1,1,0,1
+Comparative,600,148,24.666667,21.385821,28.269839,124,131,168,117,60
+Cue-free,600,171,28.500000,25.033686,32.239867,198,121,132,87,62

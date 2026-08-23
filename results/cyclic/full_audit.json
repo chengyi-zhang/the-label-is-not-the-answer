@@ -1,0 +1,1243 @@
+{
+  "schema_version": 1,
+  "conditions": [
+    "Submitted",
+    "Comparative",
+    "Cue-free"
+  ],
+  "cyclic_label_reassignment": {
+    "subsets": {
+      "full_600": {
+        "Submitted": {
+          "performance": {
+            "n": 3000,
+            "correct": 599,
+            "accuracy": 19.966666666666665,
+            "wilson_95": [
+              18.575013910630943,
+              21.435135602803634
+            ]
+          },
+          "distribution": {
+            "counts": {
+              "A": 2975,
+              "B": 11,
+              "C": 7,
+              "D": 5,
+              "E": 2
+            },
+            "max_label_share": 99.16666666666667,
+            "normalized_entropy": 0.03637357440896297
+          },
+          "all_five_semantic_invariance": 0.0,
+          "mean_pairwise_semantic_agreement": 0.48333333333333334,
+          "cases_with_any_semantic_flip": 600,
+          "original_case_count": 600,
+          "by_shift": {
+            "0": {
+              "n": 600,
+              "correct": 120,
+              "accuracy": 20.0,
+              "wilson_95": [
+                16.99473686822437,
+                23.386965192597675
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 599,
+                  "B": 1,
+                  "C": 0,
+                  "D": 0,
+                  "E": 0
+                },
+                "max_label_share": 99.83333333333333,
+                "normalized_entropy": 0.007659087893764405
+              }
+            },
+            "1": {
+              "n": 600,
+              "correct": 117,
+              "accuracy": 19.5,
+              "wilson_95": [
+                16.5279730474359,
+                22.860090714399846
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 591,
+                  "B": 4,
+                  "C": 2,
+                  "D": 2,
+                  "E": 1
+                },
+                "max_label_share": 98.5,
+                "normalized_entropy": 0.060255778561393615
+              }
+            },
+            "2": {
+              "n": 600,
+              "correct": 122,
+              "accuracy": 20.333333333333332,
+              "wilson_95": [
+                17.306341797818774,
+                23.737785795660805
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 593,
+                  "B": 2,
+                  "C": 3,
+                  "D": 2,
+                  "E": 0
+                },
+                "max_label_share": 98.83333333333333,
+                "normalized_entropy": 0.04729300064219626
+              }
+            },
+            "3": {
+              "n": 600,
+              "correct": 120,
+              "accuracy": 20.0,
+              "wilson_95": [
+                16.99473686822437,
+                23.386965192597675
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 596,
+                  "B": 2,
+                  "C": 1,
+                  "D": 1,
+                  "E": 0
+                },
+                "max_label_share": 99.33333333333333,
+                "normalized_entropy": 0.029190378599308744
+              }
+            },
+            "4": {
+              "n": 600,
+              "correct": 120,
+              "accuracy": 20.0,
+              "wilson_95": [
+                16.99473686822437,
+                23.386965192597675
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 596,
+                  "B": 2,
+                  "C": 1,
+                  "D": 0,
+                  "E": 1
+                },
+                "max_label_share": 99.33333333333333,
+                "normalized_entropy": 0.029190378599308744
+              }
+            }
+          }
+        },
+        "Comparative": {
+          "performance": {
+            "n": 3000,
+            "correct": 699,
+            "accuracy": 23.3,
+            "wilson_95": [
+              21.821991418143416,
+              24.846299103788994
+            ]
+          },
+          "distribution": {
+            "counts": {
+              "A": 631,
+              "B": 768,
+              "C": 814,
+              "D": 478,
+              "E": 309
+            },
+            "max_label_share": 27.133333333333333,
+            "normalized_entropy": 0.9676981075016045
+          },
+          "all_five_semantic_invariance": 14.333333333333334,
+          "mean_pairwise_semantic_agreement": 45.03333333333333,
+          "cases_with_any_semantic_flip": 514,
+          "original_case_count": 600,
+          "by_shift": {
+            "0": {
+              "n": 600,
+              "correct": 155,
+              "accuracy": 25.833333333333332,
+              "wilson_95": [
+                22.492438729595833,
+                29.481710152733054
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 138,
+                  "B": 126,
+                  "C": 183,
+                  "D": 94,
+                  "E": 59
+                },
+                "max_label_share": 30.5,
+                "normalized_entropy": 0.9608373959214999
+              }
+            },
+            "1": {
+              "n": 600,
+              "correct": 143,
+              "accuracy": 23.833333333333332,
+              "wilson_95": [
+                20.597424902728555,
+                27.402170783655116
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 121,
+                  "B": 167,
+                  "C": 151,
+                  "D": 92,
+                  "E": 69
+                },
+                "max_label_share": 27.833333333333332,
+                "normalized_entropy": 0.9707271194206342
+              }
+            },
+            "2": {
+              "n": 600,
+              "correct": 130,
+              "accuracy": 21.666666666666668,
+              "wilson_95": [
+                18.556062427878082,
+                25.13776729623163
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 116,
+                  "B": 154,
+                  "C": 177,
+                  "D": 89,
+                  "E": 64
+                },
+                "max_label_share": 29.5,
+                "normalized_entropy": 0.9622562076942405
+              }
+            },
+            "3": {
+              "n": 600,
+              "correct": 139,
+              "accuracy": 23.166666666666668,
+              "wilson_95": [
+                19.96798193432105,
+                26.706762686747552
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 129,
+                  "B": 160,
+                  "C": 151,
+                  "D": 106,
+                  "E": 54
+                },
+                "max_label_share": 26.666666666666668,
+                "normalized_entropy": 0.9650110736185075
+              }
+            },
+            "4": {
+              "n": 600,
+              "correct": 132,
+              "accuracy": 22.0,
+              "wilson_95": [
+                18.869289706770658,
+                25.486965549996583
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 127,
+                  "B": 161,
+                  "C": 152,
+                  "D": 97,
+                  "E": 63
+                },
+                "max_label_share": 26.833333333333332,
+                "normalized_entropy": 0.96974398256899
+              }
+            }
+          }
+        },
+        "Cue-free": {
+          "performance": {
+            "n": 3000,
+            "correct": 788,
+            "accuracy": 26.266666666666666,
+            "wilson_95": [
+              24.7229454336305,
+              27.871090585864973
+            ]
+          },
+          "distribution": {
+            "counts": {
+              "A": 1011,
+              "B": 661,
+              "C": 595,
+              "D": 449,
+              "E": 284
+            },
+            "max_label_share": 33.7,
+            "normalized_entropy": 0.9494773540558652
+          },
+          "all_five_semantic_invariance": 15.0,
+          "mean_pairwise_semantic_agreement": 44.43333333333333,
+          "cases_with_any_semantic_flip": 510,
+          "original_case_count": 600,
+          "by_shift": {
+            "0": {
+              "n": 600,
+              "correct": 172,
+              "accuracy": 28.666666666666668,
+              "wilson_95": [
+                25.19303528145096,
+                32.41173062846695
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 196,
+                  "B": 121,
+                  "C": 134,
+                  "D": 87,
+                  "E": 62
+                },
+                "max_label_share": 32.666666666666664,
+                "normalized_entropy": 0.955436869590863
+              }
+            },
+            "1": {
+              "n": 600,
+              "correct": 141,
+              "accuracy": 23.5,
+              "wilson_95": [
+                20.282559541589983,
+                27.054610612136155
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 208,
+                  "B": 141,
+                  "C": 100,
+                  "D": 100,
+                  "E": 51
+                },
+                "max_label_share": 34.66666666666667,
+                "normalized_entropy": 0.940926411349566
+              }
+            },
+            "2": {
+              "n": 600,
+              "correct": 155,
+              "accuracy": 25.833333333333332,
+              "wilson_95": [
+                22.492438729595833,
+                29.481710152733054
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 199,
+                  "B": 141,
+                  "C": 121,
+                  "D": 75,
+                  "E": 64
+                },
+                "max_label_share": 33.166666666666664,
+                "normalized_entropy": 0.9493420026915567
+              }
+            },
+            "3": {
+              "n": 600,
+              "correct": 167,
+              "accuracy": 27.833333333333332,
+              "wilson_95": [
+                24.396887405645668,
+                31.551814672628403
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 222,
+                  "B": 119,
+                  "C": 112,
+                  "D": 96,
+                  "E": 51
+                },
+                "max_label_share": 37.0,
+                "normalized_entropy": 0.934979954247262
+              }
+            },
+            "4": {
+              "n": 600,
+              "correct": 153,
+              "accuracy": 25.5,
+              "wilson_95": [
+                22.1759285774241,
+                29.135794772247248
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 186,
+                  "B": 139,
+                  "C": 128,
+                  "D": 91,
+                  "E": 56
+                },
+                "max_label_share": 31.0,
+                "normalized_entropy": 0.9561404889917421
+              }
+            }
+          }
+        }
+      },
+      "original_200": {
+        "Submitted": {
+          "performance": {
+            "n": 1000,
+            "correct": 198,
+            "accuracy": 19.8,
+            "wilson_95": [
+              17.44775624311303,
+              22.383379969414506
+            ]
+          },
+          "distribution": {
+            "counts": {
+              "A": 995,
+              "B": 1,
+              "C": 1,
+              "D": 3,
+              "E": 0
+            },
+            "max_label_share": 99.5,
+            "normalized_entropy": 0.0225112247968226
+          },
+          "all_five_semantic_invariance": 0.0,
+          "mean_pairwise_semantic_agreement": 0.25,
+          "cases_with_any_semantic_flip": 200,
+          "original_case_count": 200,
+          "by_shift": {
+            "0": {
+              "n": 200,
+              "correct": 40,
+              "accuracy": 20.0,
+              "wilson_95": [
+                15.045200926098115,
+                26.085518656537882
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 200,
+                  "B": 0,
+                  "C": 0,
+                  "D": 0,
+                  "E": 0
+                },
+                "max_label_share": 100.0,
+                "normalized_entropy": -0.0
+              }
+            },
+            "1": {
+              "n": 200,
+              "correct": 39,
+              "accuracy": 19.5,
+              "wilson_95": [
+                14.60552053440051,
+                25.544044374612746
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 199,
+                  "B": 0,
+                  "C": 0,
+                  "D": 1,
+                  "E": 0
+                },
+                "max_label_share": 99.5,
+                "normalized_entropy": 0.01955904338028056
+              }
+            },
+            "2": {
+              "n": 200,
+              "correct": 39,
+              "accuracy": 19.5,
+              "wilson_95": [
+                14.60552053440051,
+                25.544044374612746
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 198,
+                  "B": 0,
+                  "C": 0,
+                  "D": 2,
+                  "E": 0
+                },
+                "max_label_share": 99.0,
+                "normalized_entropy": 0.03479570968360693
+              }
+            },
+            "3": {
+              "n": 200,
+              "correct": 39,
+              "accuracy": 19.5,
+              "wilson_95": [
+                14.60552053440051,
+                25.544044374612746
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 199,
+                  "B": 0,
+                  "C": 1,
+                  "D": 0,
+                  "E": 0
+                },
+                "max_label_share": 99.5,
+                "normalized_entropy": 0.01955904338028056
+              }
+            },
+            "4": {
+              "n": 200,
+              "correct": 41,
+              "accuracy": 20.5,
+              "wilson_95": [
+                15.486176203836207,
+                26.625698052422514
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 199,
+                  "B": 1,
+                  "C": 0,
+                  "D": 0,
+                  "E": 0
+                },
+                "max_label_share": 99.5,
+                "normalized_entropy": 0.01955904338028056
+              }
+            }
+          }
+        },
+        "Comparative": {
+          "performance": {
+            "n": 1000,
+            "correct": 211,
+            "accuracy": 21.1,
+            "wilson_95": [
+              18.684137276354605,
+              23.737049364110483
+            ]
+          },
+          "distribution": {
+            "counts": {
+              "A": 223,
+              "B": 256,
+              "C": 264,
+              "D": 155,
+              "E": 102
+            },
+            "max_label_share": 26.400000000000002,
+            "normalized_entropy": 0.967332664915959
+          },
+          "all_five_semantic_invariance": 16.5,
+          "mean_pairwise_semantic_agreement": 46.8,
+          "cases_with_any_semantic_flip": 167,
+          "original_case_count": 200,
+          "by_shift": {
+            "0": {
+              "n": 200,
+              "correct": 48,
+              "accuracy": 24.0,
+              "wilson_95": [
+                18.606615992413687,
+                30.373340979204166
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 51,
+                  "B": 36,
+                  "C": 63,
+                  "D": 33,
+                  "E": 17
+                },
+                "max_label_share": 31.5,
+                "normalized_entropy": 0.9492967009025344
+              }
+            },
+            "1": {
+              "n": 200,
+              "correct": 39,
+              "accuracy": 19.5,
+              "wilson_95": [
+                14.60552053440051,
+                25.544044374612746
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 37,
+                  "B": 63,
+                  "C": 46,
+                  "D": 31,
+                  "E": 23
+                },
+                "max_label_share": 31.5,
+                "normalized_entropy": 0.9641706145899674
+              }
+            },
+            "2": {
+              "n": 200,
+              "correct": 39,
+              "accuracy": 19.5,
+              "wilson_95": [
+                14.60552053440051,
+                25.544044374612746
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 40,
+                  "B": 55,
+                  "C": 57,
+                  "D": 26,
+                  "E": 22
+                },
+                "max_label_share": 28.499999999999996,
+                "normalized_entropy": 0.9585259591083681
+              }
+            },
+            "3": {
+              "n": 200,
+              "correct": 42,
+              "accuracy": 21.0,
+              "wilson_95": [
+                15.928412069979,
+                27.16461685990246
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 47,
+                  "B": 51,
+                  "C": 47,
+                  "D": 39,
+                  "E": 16
+                },
+                "max_label_share": 25.5,
+                "normalized_entropy": 0.9630261761890772
+              }
+            },
+            "4": {
+              "n": 200,
+              "correct": 43,
+              "accuracy": 21.5,
+              "wilson_95": [
+                16.37187625450758,
+                27.702307348996612
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 48,
+                  "B": 51,
+                  "C": 51,
+                  "D": 26,
+                  "E": 24
+                },
+                "max_label_share": 25.5,
+                "normalized_entropy": 0.9687102743207116
+              }
+            }
+          }
+        },
+        "Cue-free": {
+          "performance": {
+            "n": 1000,
+            "correct": 233,
+            "accuracy": 23.3,
+            "wilson_95": [
+              20.785061925196214,
+              26.01928697793244
+            ]
+          },
+          "distribution": {
+            "counts": {
+              "A": 337,
+              "B": 229,
+              "C": 203,
+              "D": 143,
+              "E": 88
+            },
+            "max_label_share": 33.7,
+            "normalized_entropy": 0.9442997119374542
+          },
+          "all_five_semantic_invariance": 14.0,
+          "mean_pairwise_semantic_agreement": 43.7,
+          "cases_with_any_semantic_flip": 172,
+          "original_case_count": 200,
+          "by_shift": {
+            "0": {
+              "n": 200,
+              "correct": 47,
+              "accuracy": 23.5,
+              "wilson_95": [
+                18.15743341523259,
+                29.841368882762538
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 73,
+                  "B": 34,
+                  "C": 45,
+                  "D": 30,
+                  "E": 18
+                },
+                "max_label_share": 36.5,
+                "normalized_entropy": 0.9357342983229191
+              }
+            },
+            "1": {
+              "n": 200,
+              "correct": 38,
+              "accuracy": 19.0,
+              "wilson_95": [
+                14.167171527790675,
+                25.001238707599853
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 65,
+                  "B": 58,
+                  "C": 34,
+                  "D": 28,
+                  "E": 15
+                },
+                "max_label_share": 32.5,
+                "normalized_entropy": 0.9289077469415994
+              }
+            },
+            "2": {
+              "n": 200,
+              "correct": 50,
+              "accuracy": 25.0,
+              "wilson_95": [
+                19.5081680068175,
+                31.434098312045833
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 61,
+                  "B": 48,
+                  "C": 46,
+                  "D": 25,
+                  "E": 20
+                },
+                "max_label_share": 30.5,
+                "normalized_entropy": 0.9524395795936815
+              }
+            },
+            "3": {
+              "n": 200,
+              "correct": 51,
+              "accuracy": 25.5,
+              "wilson_95": [
+                19.96049517203135,
+                31.962925820454718
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 77,
+                  "B": 41,
+                  "C": 35,
+                  "D": 32,
+                  "E": 15
+                },
+                "max_label_share": 38.5,
+                "normalized_entropy": 0.9225969971858202
+              }
+            },
+            "4": {
+              "n": 200,
+              "correct": 47,
+              "accuracy": 23.5,
+              "wilson_95": [
+                18.15743341523259,
+                29.841368882762538
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 61,
+                  "B": 48,
+                  "C": 43,
+                  "D": 28,
+                  "E": 20
+                },
+                "max_label_share": 30.5,
+                "normalized_entropy": 0.9572737785039119
+              }
+            }
+          }
+        }
+      },
+      "additional_400": {
+        "Submitted": {
+          "performance": {
+            "n": 2000,
+            "correct": 401,
+            "accuracy": 20.05,
+            "wilson_95": [
+              18.353471853619276,
+              21.861359278527775
+            ]
+          },
+          "distribution": {
+            "counts": {
+              "A": 1980,
+              "B": 10,
+              "C": 6,
+              "D": 2,
+              "E": 2
+            },
+            "max_label_share": 99.0,
+            "normalized_entropy": 0.04205465668088291
+          },
+          "all_five_semantic_invariance": 0.0,
+          "mean_pairwise_semantic_agreement": 0.6,
+          "cases_with_any_semantic_flip": 400,
+          "original_case_count": 400,
+          "by_shift": {
+            "0": {
+              "n": 400,
+              "correct": 80,
+              "accuracy": 20.0,
+              "wilson_95": [
+                16.373705973387686,
+                24.197031686670105
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 399,
+                  "B": 1,
+                  "C": 0,
+                  "D": 0,
+                  "E": 0
+                },
+                "max_label_share": 99.75,
+                "normalized_entropy": 0.010858159625377088
+              }
+            },
+            "1": {
+              "n": 400,
+              "correct": 78,
+              "accuracy": 19.5,
+              "wilson_95": [
+                15.91506413462145,
+                23.66518581977064
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 392,
+                  "B": 4,
+                  "C": 2,
+                  "D": 1,
+                  "E": 1
+                },
+                "max_label_share": 98.0,
+                "normalized_entropy": 0.07598880556651341
+              }
+            },
+            "2": {
+              "n": 400,
+              "correct": 83,
+              "accuracy": 20.75,
+              "wilson_95": [
+                17.063415822479097,
+                24.99305339607725
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 395,
+                  "B": 2,
+                  "C": 3,
+                  "D": 0,
+                  "E": 0
+                },
+                "max_label_share": 98.75,
+                "normalized_entropy": 0.04697884001375508
+              }
+            },
+            "3": {
+              "n": 400,
+              "correct": 81,
+              "accuracy": 20.25,
+              "wilson_95": [
+                16.603379503442493,
+                24.462602009448155
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 397,
+                  "B": 2,
+                  "C": 0,
+                  "D": 1,
+                  "E": 0
+                },
+                "max_label_share": 99.25,
+                "normalized_entropy": 0.03040940706381533
+              }
+            },
+            "4": {
+              "n": 400,
+              "correct": 79,
+              "accuracy": 19.75,
+              "wilson_95": [
+                16.14426641926397,
+                23.931227387960973
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 397,
+                  "B": 1,
+                  "C": 1,
+                  "D": 0,
+                  "E": 1
+                },
+                "max_label_share": 99.25,
+                "normalized_entropy": 0.032562789854182296
+              }
+            }
+          }
+        },
+        "Comparative": {
+          "performance": {
+            "n": 2000,
+            "correct": 488,
+            "accuracy": 24.4,
+            "wilson_95": [
+              22.567940957821452,
+              26.330211862978693
+            ]
+          },
+          "distribution": {
+            "counts": {
+              "A": 408,
+              "B": 512,
+              "C": 550,
+              "D": 323,
+              "E": 207
+            },
+            "max_label_share": 27.500000000000004,
+            "normalized_entropy": 0.967628554109613
+          },
+          "all_five_semantic_invariance": 13.25,
+          "mean_pairwise_semantic_agreement": 44.15,
+          "cases_with_any_semantic_flip": 347,
+          "original_case_count": 400,
+          "by_shift": {
+            "0": {
+              "n": 400,
+              "correct": 107,
+              "accuracy": 26.75,
+              "wilson_95": [
+                22.64823841183148,
+                31.294083274713312
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 87,
+                  "B": 90,
+                  "C": 120,
+                  "D": 61,
+                  "E": 42
+                },
+                "max_label_share": 30.0,
+                "normalized_entropy": 0.964349880442532
+              }
+            },
+            "1": {
+              "n": 400,
+              "correct": 104,
+              "accuracy": 26.0,
+              "wilson_95": [
+                21.94416470472687,
+                30.512425423319367
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 84,
+                  "B": 104,
+                  "C": 105,
+                  "D": 61,
+                  "E": 46
+                },
+                "max_label_share": 26.25,
+                "normalized_entropy": 0.9721311749198444
+              }
+            },
+            "2": {
+              "n": 400,
+              "correct": 91,
+              "accuracy": 22.75,
+              "wilson_95": [
+                18.912326740735153,
+                27.10609330048401
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 76,
+                  "B": 99,
+                  "C": 120,
+                  "D": 63,
+                  "E": 42
+                },
+                "max_label_share": 30.0,
+                "normalized_entropy": 0.9631228924139712
+              }
+            },
+            "3": {
+              "n": 400,
+              "correct": 97,
+              "accuracy": 24.25,
+              "wilson_95": [
+                20.30764095091307,
+                28.682242207303197
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 82,
+                  "B": 109,
+                  "C": 104,
+                  "D": 67,
+                  "E": 38
+                },
+                "max_label_share": 27.250000000000004,
+                "normalized_entropy": 0.9644960261094745
+              }
+            },
+            "4": {
+              "n": 400,
+              "correct": 89,
+              "accuracy": 22.25,
+              "wilson_95": [
+                18.448827447183323,
+                26.579104888370132
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 79,
+                  "B": 110,
+                  "C": 101,
+                  "D": 71,
+                  "E": 39
+                },
+                "max_label_share": 27.500000000000004,
+                "normalized_entropy": 0.9672480152549409
+              }
+            }
+          }
+        },
+        "Cue-free": {
+          "performance": {
+            "n": 2000,
+            "correct": 555,
+            "accuracy": 27.75,
+            "wilson_95": [
+              25.83169041326927,
+              29.75361819074648
+            ]
+          },
+          "distribution": {
+            "counts": {
+              "A": 674,
+              "B": 432,
+              "C": 392,
+              "D": 306,
+              "E": 196
+            },
+            "max_label_share": 33.7,
+            "normalized_entropy": 0.951781299214544
+          },
+          "all_five_semantic_invariance": 15.5,
+          "mean_pairwise_semantic_agreement": 44.8,
+          "cases_with_any_semantic_flip": 338,
+          "original_case_count": 400,
+          "by_shift": {
+            "0": {
+              "n": 400,
+              "correct": 125,
+              "accuracy": 31.25,
+              "wilson_95": [
+                26.90415608130786,
+                35.952554956228255
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 123,
+                  "B": 87,
+                  "C": 89,
+                  "D": 57,
+                  "E": 44
+                },
+                "max_label_share": 30.75,
+                "normalized_entropy": 0.9626128304742506
+              }
+            },
+            "1": {
+              "n": 400,
+              "correct": 103,
+              "accuracy": 25.75,
+              "wilson_95": [
+                21.709827513471776,
+                30.251518761741604
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 143,
+                  "B": 83,
+                  "C": 66,
+                  "D": 72,
+                  "E": 36
+                },
+                "max_label_share": 35.75,
+                "normalized_entropy": 0.942396420288176
+              }
+            },
+            "2": {
+              "n": 400,
+              "correct": 105,
+              "accuracy": 26.25,
+              "wilson_95": [
+                22.178679994488373,
+                30.773153986390707
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 138,
+                  "B": 93,
+                  "C": 75,
+                  "D": 50,
+                  "E": 44
+                },
+                "max_label_share": 34.5,
+                "normalized_entropy": 0.9462557549484761
+              }
+            },
+            "3": {
+              "n": 400,
+              "correct": 116,
+              "accuracy": 29.0,
+              "wilson_95": [
+                24.76966592857209,
+                33.62985043346836
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 145,
+                  "B": 78,
+                  "C": 77,
+                  "D": 64,
+                  "E": 36
+                },
+                "max_label_share": 36.25,
+                "normalized_entropy": 0.9405269945960728
+              }
+            },
+            "4": {
+              "n": 400,
+              "correct": 106,
+              "accuracy": 26.5,
+              "wilson_95": [
+                22.413371758035428,
+                31.033706075676516
+              ],
+              "distribution": {
+                "counts": {
+                  "A": 125,
+                  "B": 91,
+                  "C": 85,
+                  "D": 63,
+                  "E": 36
+                },
+                "max_label_share": 31.25,
+                "normalized_entropy": 0.9551608910912032
+              }
+            }
+          }
+        }
+      }
+    },
+    "comparisons": {
+      "full_600:Submitted_to_Comparative": {
+        "improved": 557,
+        "worsened": 457,
+        "p": 0.0018633537922178858
+      },
+      "full_600:Comparative_to_Cue-free": {
+        "improved": 286,
+        "worsened": 197,
+        "p": 5.953389376142203E-05
+      },
+      "full_600:Submitted_to_Cue-free": {
+        "improved": 568,
+        "worsened": 379,
+        "p": 8.843929998053153E-10
+      },
+      "original_200:Submitted_to_Comparative": {
+        "improved": 172,
+        "worsened": 159,
+        "p": 0.5095843076624358
+      },
+      "original_200:Comparative_to_Cue-free": {
+        "improved": 82,
+        "worsened": 60,
+        "p": 0.07765321401762205
+      },
+      "original_200:Submitted_to_Cue-free": {
+        "improved": 168,
+        "worsened": 133,
+        "p": 0.0498470752657562
+      },
+      "additional_400:Submitted_to_Comparative": {
+        "improved": 385,
+        "worsened": 298,
+        "p": 0.0009853825864498912
+      },
+      "additional_400:Comparative_to_Cue-free": {
+        "improved": 204,
+        "worsened": 137,
+        "p": 0.0003376915199793837
+      },
+      "additional_400:Submitted_to_Cue-free": {
+        "improved": 400,
+        "worsened": 246,
+        "p": 1.4698529292803383E-09
+      }
+    }
+  },
+  "canonical_extensions": {
+    "3b_replication": {
+      "n": 600,
+      "correct": 145,
+      "accuracy": 24.166666666666668,
+      "answer_distribution": {
+        "B": 179,
+        "D": 112,
+        "A": 148,
+        "C": 118,
+        "E": 43
+      }
+    },
+    "7b_original": {
+      "n": 600,
+      "correct": 188,
+      "accuracy": 31.333333333333332,
+      "answer_distribution": {
+        "A": 143,
+        "D": 107,
+        "C": 123,
+        "E": 90,
+        "B": 137
+      }
+    }
+  }
+}

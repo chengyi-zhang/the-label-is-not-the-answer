@@ -1,0 +1,28 @@
+# Participant data, model checkpoints, and generated case-level outputs
+data/
+models/
+outputs/
+raw/
+*.jsonl
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+.synapseConfig
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Large deployment artefacts
+*.tar
+*.tar.gz
+*.sif
+*.zip

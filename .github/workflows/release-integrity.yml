@@ -1,0 +1,26 @@
+name: release-integrity
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile source
+        env:
+          PYTHONPYCACHEPREFIX: /tmp/medreason-audit-pycache
+        run: python -m compileall -q src scripts figures tests
+      - name: Check public release
+        run: python tests/test_release_integrity.py
+      - name: Check reported values
+        run: python tests/test_reported_values.py
+      - name: Regenerate figure data
+        run: python figures/prepare_figure_data.py
+      - name: Verify generated artefacts are current
+        run: git diff --exit-code

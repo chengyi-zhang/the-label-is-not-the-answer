@@ -1,0 +1,181 @@
+{
+  "model": "OpenGVLab/InternVL3-9B",
+  "language_backbone": "InternLM3-8B-Instruct",
+  "prespecified_cases": 200,
+  "total_inferences": 1000,
+  "anchors": {
+    "A": {
+      "counts": {
+        "A": 178,
+        "B": 6,
+        "C": 4,
+        "D": 5,
+        "E": 7
+      },
+      "accuracy_percent": 24.0,
+      "accuracy_wilson_95": [
+        18.606615992413687,
+        30.373340979204166
+      ],
+      "anchor_follow_count": 178,
+      "anchor_follow_percent": 89.0,
+      "anchor_follow_wilson_95": [
+        83.90730900269851,
+        92.6227555398747
+      ],
+      "parse_modes": {
+        "json_direct": 200
+      },
+      "fallback_count": 0,
+      "mean_seconds_per_case": 2.2349985
+    },
+    "B": {
+      "counts": {
+        "A": 0,
+        "B": 196,
+        "C": 2,
+        "D": 1,
+        "E": 1
+      },
+      "accuracy_percent": 21.5,
+      "accuracy_wilson_95": [
+        16.37187625450758,
+        27.702307348996612
+      ],
+      "anchor_follow_count": 196,
+      "anchor_follow_percent": 98.0,
+      "anchor_follow_wilson_95": [
+        94.97129130941735,
+        99.21955735836505
+      ],
+      "parse_modes": {
+        "json_direct": 200
+      },
+      "fallback_count": 0,
+      "mean_seconds_per_case": 2.1633345
+    },
+    "C": {
+      "counts": {
+        "A": 1,
+        "B": 2,
+        "C": 195,
+        "D": 1,
+        "E": 1
+      },
+      "accuracy_percent": 22.0,
+      "accuracy_wilson_95": [
+        16.81653835883326,
+        28.238799918293665
+      ],
+      "anchor_follow_count": 195,
+      "anchor_follow_percent": 97.5,
+      "anchor_follow_wilson_95": [
+        94.2821659593358,
+        98.92752803482387
+      ],
+      "parse_modes": {
+        "json_direct": 200
+      },
+      "fallback_count": 0,
+      "mean_seconds_per_case": 2.2267255
+    },
+    "D": {
+      "counts": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 196,
+        "E": 1
+      },
+      "accuracy_percent": 21.0,
+      "accuracy_wilson_95": [
+        15.928412069979,
+        27.16461685990246
+      ],
+      "anchor_follow_count": 196,
+      "anchor_follow_percent": 98.0,
+      "anchor_follow_wilson_95": [
+        94.97129130941735,
+        99.21955735836505
+      ],
+      "parse_modes": {
+        "json_direct": 200
+      },
+      "fallback_count": 0,
+      "mean_seconds_per_case": 2.1921085
+    },
+    "E": {
+      "counts": {
+        "A": 1,
+        "B": 0,
+        "C": 1,
+        "D": 1,
+        "E": 197
+      },
+      "accuracy_percent": 20.0,
+      "accuracy_wilson_95": [
+        15.045200926098115,
+        26.085518656537882
+      ],
+      "anchor_follow_count": 197,
+      "anchor_follow_percent": 98.5,
+      "anchor_follow_wilson_95": [
+        95.68342712073097,
+        99.48857622067418
+      ],
+      "parse_modes": {
+        "json_direct": 200
+      },
+      "fallback_count": 0,
+      "mean_seconds_per_case": 2.200107
+    }
+  },
+  "aggregate": {
+    "contingency_cue_by_response": [
+      [
+        178,
+        6,
+        4,
+        5,
+        7
+      ],
+      [
+        0,
+        196,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        195,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        196,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        197
+      ]
+    ],
+    "chi_square": 3631.666715183776,
+    "degrees_of_freedom": 16,
+    "p_value": 0.0,
+    "cramers_v": 0.9528466187146513,
+    "cases_changed_by_anchor": 200,
+    "cases_unchanged_across_all_anchors": 0,
+    "mean_unique_predictions_per_case": 4.81,
+    "minimum_expected_cell_count": 36.0,
+    "total_parser_fallbacks": 0
+  }
+}

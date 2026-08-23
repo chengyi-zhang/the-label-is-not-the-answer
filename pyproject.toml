@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medreason-output-schema-audit"
+version = "1.0.0"
+description = "Training-free audits of output-schema anchoring in medical multimodal MCQ evaluation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Chengyi Zhang"},
+  {name = "Yitong Bai"},
+  {name = "Ziyang Wang"},
+]
+dependencies = [
+  "accelerate",
+  "mpmath",
+  "numpy",
+  "Pillow",
+  "qwen-vl-utils",
+  "scipy",
+  "torch==2.8.0",
+  "torchvision==0.23.0",
+  "transformers==5.1.1",
+]
+
+[project.urls]
+Repository = "https://github.com/chengyi-zhang/the-label-is-not-the-answer"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,14 @@
+Third-party materials
+=====================
+
+The MIT License in this repository applies to the original source code and
+documentation. It does not relicense the MedReason 2026 participant data,
+model checkpoints, or any other third-party material.
+
+The copy of Figure 1 includes a representative image from the released
+MedReason training set, used with permission from the challenge organisers.
+That source image remains subject to the challenge data-use terms and is not
+separately distributed by this repository.
+
+Qwen2.5-VL and InternVL3 checkpoints remain subject to the licences published
+by their respective providers.

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "design": "2 x 2 completed-example cue by option-prefix control",
+  "n_per_condition": 600,
+  "conditions": {
+    "cue_present_original_prefixes": {"correct": 121, "accuracy_percent": 20.166667},
+    "cue_present_cleaned_prefixes": {"correct": 120, "accuracy_percent": 20.000000},
+    "cue_absent_original_prefixes": {"correct": 160, "accuracy_percent": 26.666667},
+    "cue_absent_cleaned_prefixes": {"correct": 162, "accuracy_percent": 27.000000}
+  },
+  "paired_exact_mcnemar": {
+    "cue_removal_original_prefixes": {"delta_pp": 6.500000, "improved": 119, "worsened": 80, "p": 0.006915280823282525},
+    "prefix_cleaning_cue_present": {"delta_pp": -0.166667, "improved": 0, "worsened": 1, "p": 1.0},
+    "prefix_cleaning_cue_absent": {"delta_pp": 0.333333, "improved": 20, "worsened": 18, "p": 0.8714146793645341}
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "metric": "canonical-order MCQ accuracy",
+  "interval": "Wilson 95% confidence interval",
+  "studies": [
+    {
+      "name": "Qwen2.5-VL-3B primary",
+      "n": 600,
+      "conditions": {
+        "Submitted": {"correct": 121, "accuracy_percent": 20.166667, "ci95_percent": [17.150497, 23.562418], "answer_counts": {"A": 597, "B": 1, "C": 1, "D": 0, "E": 1}},
+        "Comparative": {"correct": 148, "accuracy_percent": 24.666667, "ci95_percent": [21.385821, 28.269839], "answer_counts": {"A": 124, "B": 131, "C": 168, "D": 117, "E": 60}},
+        "Cue-free": {"correct": 171, "accuracy_percent": 28.500000, "ci95_percent": [25.033686, 32.239867], "answer_counts": {"A": 198, "B": 121, "C": 132, "D": 87, "E": 62}}
+      },
+      "submitted_to_cue_free_gain_pp": 8.333333
+    },
+    {
+      "name": "Qwen2.5-VL-3B same-source holdout",
+      "n": 600,
+      "conditions": {
+        "Submitted": {"correct": 126, "accuracy_percent": 21.000000, "ci95_percent": [17.930554, 24.438425], "answer_counts": {"A": 585, "B": 7, "C": 4, "D": 2, "E": 2}},
+        "Comparative": {"correct": 145, "accuracy_percent": 24.166667, "ci95_percent": [20.912574, 27.749447], "answer_counts": {"A": 148, "B": 179, "C": 118, "D": 112, "E": 43}},
+        "Cue-free": {"correct": 176, "accuracy_percent": 29.333333, "ci95_percent": [25.831025, 33.098592], "answer_counts": {"A": 194, "B": 167, "C": 103, "D": 85, "E": 51}}
+      },
+      "submitted_to_cue_free_gain_pp": 8.333333,
+      "submitted_to_cue_free_holm_p": 0.0018
+    },
+    {
+      "name": "Qwen2.5-VL-7B primary",
+      "n": 600,
+      "conditions": {
+        "Submitted": {"correct": 153, "accuracy_percent": 25.500000, "ci95_percent": [22.175929, 29.135795], "answer_counts": {"A": 478, "B": 42, "C": 25, "D": 26, "E": 29}},
+        "Comparative": {"correct": 188, "accuracy_percent": 31.333333, "ci95_percent": [27.750510, 35.153660], "answer_counts": {"A": 143, "B": 137, "C": 123, "D": 107, "E": 90}},
+        "Cue-free": {"correct": 211, "accuracy_percent": 35.166667, "ci95_percent": [31.451385, 39.070678], "answer_counts": {"A": 119, "B": 137, "C": 130, "D": 112, "E": 102}}
+      },
+      "submitted_to_cue_free_gain_pp": 9.666667,
+      "submitted_to_cue_free_holm_p": "<0.0001"
+    }
+  ]
+}

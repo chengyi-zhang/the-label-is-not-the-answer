@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "paper_title": "The Label Is Not the Answer: Output-Schema Anchoring in Medical Multimodal MCQ Evaluation",
+  "conditions": {
+    "submitted": {
+      "module": "medreason_audit.qwen_submitted",
+      "description": "The prompt used by the submitted challenge pipeline, including a completed JSON example with answer label A."
+    },
+    "comparative": {
+      "module": "medreason_audit.qwen_comparative",
+      "description": "A comparison-focused prompt without the completed answer example."
+    },
+    "cue_free": {
+      "module": "medreason_audit.qwen_cue_free",
+      "description": "The comparative prompt with concrete examples and duplicated option prefixes removed."
+    }
+  },
+  "studies": {
+    "completed_example_intervention": {
+      "module": "medreason_audit.qwen_anchor_intervention",
+      "labels": ["A", "B", "C", "D", "E"],
+      "qwen_cases": 600,
+      "internvl_cases": 200
+    },
+    "cyclic_label_reassignment": {
+      "labels": ["A", "B", "C", "D", "E"],
+      "cases": 600,
+      "conditions": ["submitted", "comparative", "cue_free"]
+    },
+    "canonical_replication": {
+      "primary_cases": 600,
+      "holdout_cases": 600,
+      "models": ["Qwen2.5-VL-3B-Instruct", "Qwen2.5-VL-7B-Instruct"]
+    }
+  },
+  "selection_keys_hex": {
+    "primary": "706572666563742d776176652d6d6564726561736f6e2d323032362d7631",
+    "holdout": "706572666563742d776176652d6d6564726561736f6e2d323032362d7265706c69636174696f6e2d7631"
+  }
+}

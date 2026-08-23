@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "model": "Qwen2.5-VL-3B-Instruct",
+  "cases_per_schema_cue": 600,
+  "total_inferences": 3000,
+  "schema_cues": ["A", "B", "C", "D", "E"],
+  "reported_label_counts_by_cue": [
+    [597, 1, 1, 0, 1],
+    [1, 598, 0, 0, 1],
+    [0, 1, 595, 0, 4],
+    [2, 2, 2, 588, 6],
+    [2, 0, 3, 6, 589]
+  ],
+  "follow_cue_rate_percent": {"A": 99.5, "B": 99.666667, "C": 99.166667, "D": 98.0, "E": 98.166667},
+  "chi_square_df16": 11673.134404838542,
+  "cramers_v": 0.986286571136002,
+  "casewise_permutation": {"seed": 20260813, "permutations": 10000, "exceedances": 0, "p": 0.00009999000099990002},
+  "cases_changed_by_at_least_one_cue": 600
+}
