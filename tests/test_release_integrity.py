@@ -32,7 +32,8 @@ FORBIDDEN = {
 
 
 def main() -> None:
-    assert not (ROOT / ".git").exists(), "release package must not contain repository history"
+    nested_git_dirs = [path for path in ROOT.rglob(".git") if path.parent != ROOT]
+    assert not nested_git_dirs, f"nested repository history found: {nested_git_dirs}"
     required = [
         "README.md",
         "LICENSE",
