@@ -7,11 +7,12 @@
 **A controlled, training-free audit of whether benchmark-visible answers depend on arbitrary option identifiers.**
 
 [![MICCAI 2026 Workshop](https://img.shields.io/badge/MICCAI%202026-MedReason%20Workshop-9B4A3C?style=flat-square)](https://medreason26.github.io/)
+[![Paper](https://img.shields.io/badge/Paper-OpenReview-8C1B13?style=flat-square)](https://openreview.net/forum?id=xyiA2hz4HU)
 [![Python](https://img.shields.io/badge/Python-3.12-3D6F68?style=flat-square&logo=python&logoColor=white)](pyproject.toml)
 [![Licence](https://img.shields.io/badge/Code-MIT-6D7C85?style=flat-square)](LICENSE)
 [![Release integrity](https://img.shields.io/badge/release-integrity_checked-4E748F?style=flat-square)](.github/workflows/release-integrity.yml)
 
-[Overview](#overview) &nbsp;|&nbsp; [Findings](#key-findings) &nbsp;|&nbsp; [Reproduce](#reproduce-the-audit) &nbsp;|&nbsp; [Repository map](#repository-map) &nbsp;|&nbsp; [Citation](#citation)
+[Paper](#paper) &nbsp;|&nbsp; [Overview](#overview) &nbsp;|&nbsp; [Findings](#key-findings) &nbsp;|&nbsp; [Reproduce](#reproduce-the-audit) &nbsp;|&nbsp; [Repository map](#repository-map) &nbsp;|&nbsp; [Citation](#citation)
 
 </div>
 
@@ -20,6 +21,13 @@
 </p>
 
 <p align="center"><sub>Completed-example intervention, cyclic label reassignment, and replication analyses. <a href="figures/figure1.pdf">Open the vector-quality PDF.</a></sub></p>
+
+## Paper
+
+**The Label Is Not the Answer: Output-Schema Anchoring in Medical Multimodal MCQ Evaluation**<br>
+Accepted at the **MedReason 2026 Workshop at MICCAI 2026**.
+
+[OpenReview](https://openreview.net/forum?id=xyiA2hz4HU) &nbsp;·&nbsp; Springer LNCS proceedings forthcoming
 
 ## Overview
 
@@ -163,7 +171,7 @@ These experiments establish an answer-reporting failure mode in the evaluated me
 
 ## Citation
 
-Publication metadata will be added when the camera-ready record becomes available. Until then, please cite the paper title and authors recorded in [CITATION.cff](CITATION.cff):
+Publication metadata will be updated when the Springer LNCS record becomes available. Until then, see the [OpenReview record](https://openreview.net/forum?id=xyiA2hz4HU) and cite the paper title and authors recorded in [CITATION.cff](CITATION.cff):
 
 ```text
 Chengyi Zhang, Yitong Bai, and Ziyang Wang.
