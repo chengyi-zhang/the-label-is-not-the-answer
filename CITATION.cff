@@ -13,6 +13,20 @@ authors:
     given-names: Ziyang
 license: MIT
 repository-code: "https://github.com/chengyi-zhang/the-label-is-not-the-answer"
+preferred-citation:
+  type: conference-paper
+  title: "The Label Is Not the Answer: Output-Schema Anchoring in Medical Multimodal MCQ Evaluation"
+  authors:
+    - family-names: Zhang
+      given-names: Chengyi
+    - family-names: Bai
+      given-names: Yitong
+    - family-names: Wang
+      given-names: Ziyang
+  year: 2026
+  conference:
+    name: "MedReason 2026 Workshop at MICCAI 2026"
+  url: "https://papers.miccai.org/miccai-2026-sat/paper/MedReason_007.pdf"
 keywords:
   - medical multimodal large language models
   - multiple-choice evaluation

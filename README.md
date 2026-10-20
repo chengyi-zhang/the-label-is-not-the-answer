@@ -7,12 +7,13 @@
 **A controlled, training-free audit of whether benchmark-visible answers depend on arbitrary option identifiers.**
 
 [![MICCAI 2026 Workshop](https://img.shields.io/badge/MICCAI%202026-MedReason%20Workshop-9B4A3C?style=flat-square)](https://medreason26.github.io/)
-[![Paper](https://img.shields.io/badge/Paper-OpenReview-8C1B13?style=flat-square)](https://openreview.net/forum?id=xyiA2hz4HU)
+[![Paper](https://img.shields.io/badge/Paper-PDF-8C1B13?style=flat-square)](https://papers.miccai.org/miccai-2026-sat/paper/MedReason_007.pdf)
+[![Supplement](https://img.shields.io/badge/Supplement-PDF-4E748F?style=flat-square)](https://papers.miccai.org/miccai-2026-sat/supp/MedReason_007_supp.pdf)
 [![Python](https://img.shields.io/badge/Python-3.12-3D6F68?style=flat-square&logo=python&logoColor=white)](pyproject.toml)
 [![Licence](https://img.shields.io/badge/Code-MIT-6D7C85?style=flat-square)](LICENSE)
 [![Release integrity](https://img.shields.io/badge/release-integrity_checked-4E748F?style=flat-square)](.github/workflows/release-integrity.yml)
 
-[Paper](#paper) &nbsp;|&nbsp; [Overview](#overview) &nbsp;|&nbsp; [Findings](#key-findings) &nbsp;|&nbsp; [Reproduce](#reproduce-the-audit) &nbsp;|&nbsp; [Repository map](#repository-map) &nbsp;|&nbsp; [Citation](#citation)
+[Paper](https://papers.miccai.org/miccai-2026-sat/paper/MedReason_007.pdf) &nbsp;|&nbsp; [Overview](#overview) &nbsp;|&nbsp; [Findings](#key-findings) &nbsp;|&nbsp; [Reproduce](#reproduce-the-audit) &nbsp;|&nbsp; [Repository map](#repository-map) &nbsp;|&nbsp; [Citation](#citation)
 
 </div>
 
@@ -27,7 +28,9 @@
 **The Label Is Not the Answer: Output-Schema Anchoring in Medical Multimodal MCQ Evaluation**<br>
 Accepted at the **MedReason 2026 Workshop at MICCAI 2026**.
 
-[OpenReview](https://openreview.net/forum?id=xyiA2hz4HU) &nbsp;·&nbsp; Springer LNCS proceedings forthcoming
+[Paper (PDF)](https://papers.miccai.org/miccai-2026-sat/paper/MedReason_007.pdf) &nbsp;·&nbsp; [Supplementary material](https://papers.miccai.org/miccai-2026-sat/supp/MedReason_007_supp.pdf) &nbsp;·&nbsp; [MICCAI paper page](https://papers.miccai.org/miccai-2026-sat/MedReason_007.html)
+
+The camera-ready paper and supplementary material are openly available from the MICCAI Society. Springer LNCS proceedings are forthcoming.
 
 ## Overview
 
@@ -171,7 +174,7 @@ These experiments establish an answer-reporting failure mode in the evaluated me
 
 ## Citation
 
-Publication metadata will be updated when the Springer LNCS record becomes available. Until then, see the [OpenReview record](https://openreview.net/forum?id=xyiA2hz4HU) and cite the paper title and authors recorded in [CITATION.cff](CITATION.cff):
+See the [MICCAI paper page](https://papers.miccai.org/miccai-2026-sat/MedReason_007.html) for the open-access paper and supplementary material. Cite the paper using the title and authors recorded in [CITATION.cff](CITATION.cff); publication metadata will be updated when the Springer LNCS record becomes available:
 
 ```text
 Chengyi Zhang, Yitong Bai, and Ziyang Wang.
